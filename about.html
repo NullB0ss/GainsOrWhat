@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Σχετικά με τον δημιουργό του MaximizeGains">
+    <meta name="keywords" content="βιογραφία, πληροφορίες, δημιουργός">
+    <title>Σχετικά με εμένα - MaximizeGains</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <style>
+        .layout-two-column {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 3rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 20px;
+        }
+
+        .profile-section {
+            display: flex;
+            gap: 2rem;
+            align-items: flex-start;
+        }
+
+        .profile-image {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border: 4px solid #c9651e;
+            border-radius: 10px;
+        }
+
+        .contact-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #c9651e;
+        }
+
+        .bio h4 {
+            color: #c9651e;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .title {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1>MaximizeGains</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Αρχική</a></li>
+                    <li><a href="istoria.html">Ιστορία</a></li>
+                    <li><a href="polymesa.html">Πολυμέσα</a></li>
+                    <li><a href="nea.html">Νέα</a></li>
+                    <li><a href="about.html">Σχετικά με εμένα</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="layout-two-column">
+        <section class="about-content"> 
+            <h2>Σχετικά με Εμένα</h2>
+            <div class="profile-section">
+                <img src="media/Profile.jpg" alt="Προφίλ φωτογραφία Σταύρου Κοντοκώστα" class="profile-image">
+                <div class="profile-info">
+                    <h3>Σταύρος Κοντοκώστας</h3>
+                    <p class="title">Δημιουργός MaximizeGains & Ειδικός Διατροφής</p>
+
+                    <div class="bio">
+                        <h4>💻 Εκπαίδευση</h4>
+                        <p>Είμαι προπτυχιακός φοιτητής Ψηφιακών Συστημάτων.</p>
+                        
+                        <h4>💪 Εμπειρία</h4>
+                        <p>Χρόνια εμπειρία στον χώρο του fitness και συμπληρωμάτων διατροφής, με βασικό στόχο τη βελτιστοποίηση της απόδοσης και της υγείας.</p>
+                        
+                        <h4>📚 Φιλοσοφία</h4>
+                        <p>Πιστεύω στη συνδυασμένη εφαρμογή επιστημονικής γνώσης και πρακτικής εμπειρίας για την επίτευξη βέλτιστων αποτελεσμάτων στη διατροφή και supplementation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <aside class="contact-info">
+            <h3>Επικοινωνία</h3>
+            <div class="contact-card">
+                <h4>Στοιχεία Επικοινωνίας</h4>
+                <p><strong>Email:</strong> stkontokostas@uth.gr</p>
+                <p><strong>Τοποθεσία:</strong> Λάρισα, Ελλάδα</p>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 MaximizeGains - Όλα τα δικαιώματα διατηρούνται</p>
+        </div>
+    </footer>
+</body>
+</html>

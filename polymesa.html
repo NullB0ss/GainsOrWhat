@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Πολυμέσα - Βίντεο και φωτογραφίες συμπληρωμάτων">
+    <meta name="keywords" content="βίντεο συμπληρωμάτων, gallery, φωτογραφίες, YouTube, EAA, κρεατίνη, πρωτεΐνη">
+    <title>Πολυμέσα - MaximizeGains</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <style>
+        .gallery-section {
+            padding: 2rem 0;
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .thumbnail {
+            background: white;
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            border: 2px solid #7c3aed;
+        }
+        
+        .thumbnail:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(124, 58, 237, 0.3);
+        }
+        
+        .gallery-image {
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            background-color: #f8f9fa;
+            padding: 10px;
+            cursor: pointer;
+        }
+        
+        .thumbnail-info h3 {
+            color: #c9651e;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .thumbnail-info p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .video-container {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, #faf5ff 0%, #e8f4f8 100%);
+            border-radius: 15px;
+        }
+        
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            margin-top: 1rem;
+        }
+        
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            border: none; /* Αντικαθιστά το frameborder="0" */
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1>MaximizeGains</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Αρχική</a></li>
+                    <li><a href="istoria.html">Ιστορία</a></li>
+                    <li><a href="polymesa.html">Πολυμέσα</a></li>
+                    <li><a href="nea.html">Νέα</a></li>
+                    <li><a href="about.html">Σχετικά με εμένα</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="single-column">
+        <section class="gallery-section">
+            <h2>Gallery Συμπληρωμάτων</h2>
+            
+            <!-- Πρώτη σειρά - 4 συμπληρώματα -->
+            <div class="gallery-grid">
+                <div class="thumbnail">
+                    <a href="media/Creatine_Monohydrate.jpg" target="_blank">
+                        <img src="media/Creatine_Monohydrate.jpg" alt="Κρεατίνη Monohydrate" class="gallery-image">
+                    </a>
+                    <div class="thumbnail-info">
+                        <h3>CREATINE</h3>
+                        <p>Δύναμη & Απόδοση</p>
+                    </div>
+                </div>
+                
+                <div class="thumbnail">
+                    <a href="media/WheyProtein.jpg" target="_blank">
+                        <img src="media/WheyProtein.jpg" alt="Πρωτεΐνη Whey" class="gallery-image">
+                    </a>
+                    <div class="thumbnail-info">
+                        <h3>PROTEIN</h3>
+                        <p>Μυϊκή Ανάπτυξη</p>
+                    </div>
+                </div>
+                
+                <div class="thumbnail">
+                    <a href="media/BCAA.jpg" target="_blank">
+                        <img src="media/BCAA.jpg" alt="BCAA Αμινοξέα" class="gallery-image">
+                    </a>
+                    <div class="thumbnail-info">
+                        <h3>BCAA</h3>
+                        <p>Ανάκαμψη & Αντοχή</p>
+                    </div>
+                </div>
+                
+                <div class="thumbnail">
+                    <a href="media/Pre-Workout.jpg" target="_blank">
+                        <img src="media/Pre-Workout.jpg" alt="Pre-Workout" class="gallery-image">
+                    </a>
+                    <div class="thumbnail-info">
+                        <h3>PRE-WORKOUT</h3>
+                        <p>Ενέργεια & Εστίαση</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Δεύτερη σειρά - 4 συμπληρώματα -->
+            <div class="gallery-grid">
+                <div class="thumbnail">
+                    <a href="media/EAA.jpg" target="_blank">
+                        <img src="media/EAA.jpg" alt="EAA Απαραίτητα Αμινοξέα" class="gallery-image">
+                    </a>
+                    <div class="thumbnail-info">
+                        <h3>EAA</h3>
+                        <p>Απαραίτητα Αμινοξέα</p>
+                    </div>
+                </div>
+                
+                <div class="thumbnail">
+                    <a href="media/Vitamin_C.jpg" target="_blank">
+                        <img src="media/Vitamin_C.jpg" alt="Βιταμίνη C" class="gallery-image">
+                    </a>
+                    <div class="thumbnail-info">
+                        <h3>VITAMIN C</h3>
+                        <p>Ανοσοποιητικό Σύστημα</p>
+                    </div>
+                </div>
+                
+                <div class="thumbnail">
+                    <a href="media/Glutamine.jpg" target="_blank">
+                        <img src="media/Glutamine.jpg" alt="Γλουταμίνη" class="gallery-image">
+                    </a>
+                    <div class="thumbnail-info">
+                        <h3>GLUTAMINE</h3>
+                        <p>Μυϊκή Ανάκαμψη</p>
+                    </div>
+                </div>
+                
+                <div class="thumbnail">
+                    <a href="media/Mega_Amino.jpg" target="_blank">
+                        <img src="media/Mega_Amino.jpg" alt="Mega Amino" class="gallery-image">
+                    </a>
+                    <div class="thumbnail-info">
+                        <h3>MEGA AMINO</h3>
+                        <p>Πλήρη Αμινοξέα</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-container">
+            <h2>Εκπαιδευτικό Βίντεο: Η Επιστήμη Πίσω από τα Συμπληρώματα</h2>
+            <div class="video-wrapper">
+                <iframe 
+                    src="https://www.youtube.com/embed/gexpGeSvAxk?si=61LVhZEEdJi4soZ_" 
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+                    referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 MaximizeGains - Όλα τα δικαιώματα διατηρούνται</p>
+        </div>
+    </footer>
+</body>
+</html>
